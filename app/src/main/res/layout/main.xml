@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HowWasYourDay"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="530dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/effort_button"
+                android:layout_width="200dp"
+                android:layout_height="76dp"
+                android:onClick="effortButton"
+                android:text="@string/effort_button_label"
+                app:backgroundTint="#6b8e23" />
+
+            <Button
+                android:id="@+id/tired_button"
+                android:layout_width="210dp"
+                android:layout_height="76dp"
+                android:onClick="tiredButton"
+                android:text="@string/tired_button_label"
+                app:backgroundTint="#deb887" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/enjoy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="enjoyButton"
+                android:text="@string/enjoy_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/getHurt_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="getHurtButton"
+                android:text="@string/getHurt_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/happyFound_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="happyFoundButton"
+                android:text="@string/happyFound_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/sleepy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="sleepyButton"
+                android:text="@string/sleepy_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/newDiscoveryFound_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="newDiscoveryFoundButton"
+                android:text="@string/newDiscoveryFound_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/ConditionBad_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="ConditionBadButton"
+                android:text="@string/ConditionBad_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/stimulation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="stimulationButton"
+                android:text="@string/stimulation_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/busy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="busyButton"
+                android:text="@string/busy_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/recovery_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="recoveryButton"
+                android:text="@string/recovery_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/sadFound_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="sadFoundButton"
+                android:text="@string/sadFound_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+            <Button
+                android:id="@+id/normal_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="normalButton"
+                android:text="@string/normal_button_label"
+                app:backgroundTint="#6b8e23"/>
+
+            <Button
+                android:id="@+id/nothing_button"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:onClick="nothingButton"
+                android:text="@string/nothing_button_label"
+                app:backgroundTint="#deb887"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/end_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="subButton"
+        android:text="@string/sub_button_label"
+        app:backgroundTint="#6b8e23"/>
+
+    <Button
+        android:id="@+id/end_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="endButton"
+        android:text="@string/end_button_label"
+        app:backgroundTint="#deb887"/>
+
+
+
+
+</LinearLayout>

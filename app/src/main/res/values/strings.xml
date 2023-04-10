@@ -1,0 +1,42 @@
+<resources>
+    <string name="pray">あなたの明日が\nいい日になりますように</string>
+    <string name="exit_label">アプリの終了</string>
+
+
+    <string name="HowWasYourDay">今日はどんな1日でしたか？</string>
+
+    <string name="effort_button_label">がんばった</string>
+    <string name="tired_button_label">疲れちゃった</string>
+    <string name="enjoy_button_label">楽しかった</string>
+    <string name="getHurt_button_label">傷ついた</string>
+    <string name="happyFound_button_label">嬉しいことがあった</string>
+    <string name="sleepy_button_label">眠かった</string>
+    <string name="newDiscoveryFound_button_label">新しい発見があった</string>
+    <string name="ConditionBad_button_label">体調が悪かった</string>
+    <string name="stimulation_button_label">刺激的だった</string>
+    <string name="busy_button_label">忙しかった</string>
+    <string name="recovery_button_label">のんびり安らいだ</string>
+    <string name="sadFound_button_label">悲しいことがあった</string>
+    <string name="normal_button_label">いつもと変わらない</string>
+    <string name="nothing_button_label">何もしてない</string>
+
+    <string name="sub_button_label">次へ</string>
+    <string name="end_button_label">終了画面へ</string>
+
+
+    <string name="sub_message">new画面</string>
+    <string name="sub_result1">よくがんばったね！あなたは立派です！\n\nあなたにおすすめ：がんばったことを日記に書いてみると後で見返したときに元気もらえるかも</string>
+    <string name="sub_result2">お疲れさまでした！今日はもうゆっくり休んでね\n\nあなたにおすすめ：早めにお風呂入っていっぱい寝ると回復できそう</string>
+    <string name="sub_result3">最高の1日だった？明日も楽しい日になるといいね！\n\nあなたにおすすめ：寝る前に楽しかったこと思い浮かべたら幸せな気持ちで眠りにつけそう</string>
+    <string name="sub_result4">あなたは悪くない。私はいつでも味方だよ。\n\nあなたにおすすめ：今の気持ちを紙に書いて吐き出そう。話せたら誰かに話すというのもいいかも！</string>
+    <string name="sub_result5">嬉しかったことぜひ話して聞かせて！！\n\nあなたにおすすめ：嬉しかったことを思い出して笑顔でいるとまた嬉しいことが舞い込んでくるよ！</string>
+    <string name="sub_result6">そういう日もあるよね。というかそういう日しかない。\n\nあなたにおすすめ：今日は早めにベッドに入ろう。夜更かしはほどほどに(笑)</string>
+    <string name="sub_result7">おお！1歩前に進んだんだね！やったね！\n\nあなたにおすすめ：発見したことを早速明日から取り組んでみよう！または新たな気づきを探すのもいいね！</string>
+    <string name="sub_result8">大丈夫？明日も無理はしないで。なにかあったらすぐ休むんだよ\n\nあなたにおすすめ：とにかく休む。そして周りに伝えられたら伝えよう。</string>
+    <string name="sub_result9">ドキドキしちゃってもしかして寝付けないかもね！\n\nあなたにおすすめ：だれかに話して共有してあげて！聞いた人もワクワクするかも</string>
+    <string name="sub_result10">おつかれさまでした！このあとは思う存分ぼーっとしちゃおう\n\nあなたにおすすめ：好きな食べもの食べちゃえ！好きなことやっちゃえ！</string>
+    <string name="sub_result11">リフレッシュできたかな？心とからだの回復は大事だね\n\nあなたにおすすめ：ストレッチするとさらに気分よくなるかも！</string>
+    <string name="sub_result12">ひとりじゃないからね。いつでもそばにいるよ。\n\nあなたにおすすめ：反芻しても苦しくなるから早めに寝るなりして休んじゃおう</string>
+    <string name="sub_result13">良いことじゃないですか！なんなら明日はちょっと頑張っちゃう？\n\nあなたにおすすめ：明日はいつもと違う選択をすると新鮮な気持ちになれそう</string>
+    <string name="sub_result14">そんな日があるからこそたまには頑張ろうかなと思えるんだよ。何もしてない日万歳！\n\nあなたにおすすめ：何もしないを極める！そうすると動き出したくなってウズウズするはず</string>
+</resources>
